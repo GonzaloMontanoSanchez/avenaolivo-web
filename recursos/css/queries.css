@@ -1,0 +1,141 @@
+
+/* big tablets 1023px-1200px */
+@media only screen and (max-width: 1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{ padding: 0 2%; }
+
+    .new-card {
+        height: 400px;
+    }
+
+    .logo{
+        width: 30%;
+    }
+
+    .step-numbers{ 
+        bottom: 17rem;
+        margin-left: 5px;
+    }
+
+    h1 {
+        font-size: 400%;
+    }
+
+    a{
+        font-size: 200%;
+    }
+}
+
+/* ipad,tablets 768px-1023px */
+@media only screen and (max-width: 1023px){
+    body{ font-size: 18px;}
+    section{padding: 60px 0}
+
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .city-feature{font-size: 90%; }
+    
+    .plan-box{
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .plan-price{font-size: 250%}
+    .contact-form{width: 80%;}
+
+    .Card{
+        width: auto;
+        height: auto;
+    }
+
+    #Card-image{
+        width:  150px;
+        height: 100px;
+    }
+
+    .new-card {
+        height: 300px;
+    }
+
+    .step-numbers{ 
+        bottom: 12rem;
+        margin-left: 5px;
+    }
+
+    h1 {
+        font-size: 300%;
+    }
+
+    .logo{
+        width: 25%;
+    }
+}
+    
+
+
+/* phones,small tablets 481px-767px */
+@media only screen and (max-width: 767px){
+    body{font-size: 16px}
+    section{ padding: 38px 0}
+    .row,
+    .hero-text-box{padding: 0 4%}
+    
+    .col{
+        width: 100%;
+        margin:0 0 4% 0;
+    }
+    
+    .main-nav{display: none;}
+    
+    .long-copy{
+        width: 100%;
+        margin-left: 0;
+    }
+    h1{font-size: 150%}
+    h2{font-size: 140%}
+
+    a{
+        font-size: 90%;
+    }
+    
+    .app-screen{ width: 50%}
+
+    i{
+        float: left;
+        margin-right: 15px;
+    }
+
+    .logo{
+        width: 40%;
+    }
+
+    .new-card {
+        height: 200px;
+    }
+
+    .step-numbers{ 
+        bottom: 7rem;
+        margin-left: 5px;
+        padding: 10px;
+    }
+
+    .icon-big {
+        margin-bottom: 50px;
+    }
+}
+
+/* small phones 0px-480px */
+@media only screen and(max-width: 480px){
+    section{ padding: 25px ;}
+    .contact-form{width: 100%;}
+    
+}
+
+
+
+
